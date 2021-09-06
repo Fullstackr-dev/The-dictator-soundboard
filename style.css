@@ -1,0 +1,59 @@
+html{
+    min-height: 100%;
+    background-image: url("Assets/BG\ image\ dark.svg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'montserrat';
+    overflow: hidden;
+    user-select: none;
+}
+
+
+
+.app{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width:540px;
+    margin:200px auto;
+    padding: 10px 20px 20px 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+.dictator-face {
+    width:80px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dictator-face:active {
+    transform: translateY(4px);
+}
+
+h1{
+    text-align: center;
+    color:white;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.72);
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+p{
+    text-align: center;
+    color:white;
+    font-size: 14px;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.72);
+}
